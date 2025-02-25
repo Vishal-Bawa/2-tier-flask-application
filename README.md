@@ -1,19 +1,19 @@
 # 2-tier-flask-application
-1.Prerequisites:
-  a)AWS CLI - For interacting with AWS services.
-  b)Docker - For building and running the containers locally.
-  c)Kubernetes (kubectl) - For managing Kubernetes resources.
-  d)AWS Account - For creating the EKS cluster and related resources.
-  
-2.Project Title:
+1.Project Title:
   This project is a 2-tier Flask application with a PostgreSQL database running on Amazon Elastic Kubernetes Service (EKS). It demonstrates how to deploy a web application with a backend database 
   in a containerized environment.
 
-3.Project Overview:
+2.Project Overview:
   This project is designed to demonstrate how to deploy a Flask application in a containerized environment using AWS EKS. It includes:
    a)A Flask application container that serves the web application.
    b)A PostgreSQL database container that stores the application's data.
    c)The app is deployed using Amazon EKS to manage the Kubernetes cluster.
+
+3.Prerequisites:
+  a)AWS CLI - For interacting with AWS services.
+  b)Docker - For building and running the containers locally.
+  c)Kubernetes (kubectl) - For managing Kubernetes resources.
+  d)AWS Account - For creating the EKS cluster and related resources.  
 
 4.Technologies Used:
   a)Flask - A micro web framework for Python.
